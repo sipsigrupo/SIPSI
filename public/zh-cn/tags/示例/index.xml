@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>示例 on Blowfish</title>
+    <link>https://sipsigrupo.github.io:1313/Site/zh-cn/tags/%E7%A4%BA%E4%BE%8B/</link>
+    <description>Recent content in 示例 on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2024 Blowfish</copyright>
+    <atom:link href="https://sipsigrupo.github.io:1313/Site/zh-cn/tags/%E7%A4%BA%E4%BE%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>内容示例</title>
+      <link>https://sipsigrupo.github.io:1313/Site/zh-cn/docs/content-examples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sipsigrupo.github.io:1313/Site/zh-cn/docs/content-examples/</guid>
+      <description>如果你已经按顺序阅读了文档，那么你现在应该已经了解了 Blowfish 中所有的功能和配置信息。这个页面旨在把所有内容整合在一起，并提供一些你会在 Hugo 项目中使用的示例。
+提示: 如果你是Hugo的新用户，请务必阅读官方文档，了解更多关于页面捆绑和资源的概念。这个页面上的示例都可以根据不同的场景进行调整，期待你在做自己项目的同时，提出一些对特定内容格式化的想法。
+分支页面 #Hugo 中的分支页面包括主页、部分列表页面和分类页面等内容，请记住，这些分支页面的文件名都是 _index.md。
+Blowfish 支持在分支页面中设置扉页参数，在扉页中设置的参数将会覆盖在配置文件中设置的参数默认值。例如，在分支页面中的 title 参数将会覆盖页面标题的默认值。
+主页 #Layout: layouts/index.html Content: content/_index.md Blowfish 中的主页比较特殊，它的整体设计是由主页的布局参数控制的。你可以在 主页布局 来获取更多内容。
+如果你想自定义主页的内容，你仅需创建一个 content/_index.md 文件。该文件中的任何内容都会包含在你的主页中。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://sipsigrupo.github.io:1313/Site/docs/content-examples/featured.svg" />
+    </item>
+    
+  </channel>
+</rss>

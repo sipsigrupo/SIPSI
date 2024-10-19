@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nuno Coração on Blowfish</title>
+    <link>https://sipsigrupo.github.io:1313/Site/zh-cn/authors/nunocoracao/</link>
+    <description>Recent content in Nuno Coração on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2024 Blowfish</copyright>
+    <atom:link href="https://sipsigrupo.github.io:1313/Site/zh-cn/authors/nunocoracao/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>多创作者模式</title>
+      <link>https://sipsigrupo.github.io:1313/Site/zh-cn/docs/multi-author/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sipsigrupo.github.io:1313/Site/zh-cn/docs/multi-author/</guid>
+      <description>一个网站会有多个创作者共同贡献内容，所以需要再整个网站中默认使用多创作者。对于这种情况，Blowfish 允许用户使用多创作者功能拓展创作者列表。
+为了保持向后兼容，这个功能仅允许定义额外的创作者，并不会以任何方式修改之前通过配置文件添加的创作者。
+新建创作者 #新建创作者的第一步是设置一个 ./data/authors 文件夹。然后，你可以在里面简单的添加新创作者的 json 文件。文件的名称是你在文章引用该作者时需要指定的 key。
+例如，在 ./data/authors 文件夹中新建一个 nunocoracao.json 文件。文件的内容示例如下。name、image、bio 和 social 是目前创作者文件支持的4个参数，这与你在 languages.[language-code].toml 配置文件中的默认创作者配置类似。
+注意：社交参数中的 key 将会默认获取主题的图标 icon，当然你也可以在 assests/icons 文件夹中设置任何图标。
+{ &amp;#34;name&amp;#34;: &amp;#34;Nuno Coração&amp;#34;, &amp;#34;image&amp;#34; : &amp;#34;img/nuno_avatar.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://sipsigrupo.github.io:1313/Site/docs/multi-author/featured.svg" />
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Front Matter on Blowfish</title>
+    <link>https://sipsigrupo.github.io:1313/Site/zh-cn/tags/front-matter/</link>
+    <description>Recent content in Front Matter on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2024 Blowfish</copyright>
+    <atom:link href="https://sipsigrupo.github.io:1313/Site/zh-cn/tags/front-matter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Front Matter(文件头信息)</title>
+      <link>https://sipsigrupo.github.io:1313/Site/zh-cn/docs/front-matter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sipsigrupo.github.io:1313/Site/zh-cn/docs/front-matter/</guid>
+      <description>除了 Hugo 中默认的 front matter，Blowfish 主题中还添加了大量的参数选项来自定义单个页面的展示方式。所有可用的扉页参数如下。
+front matter 参数中的默认值是从基础配置中继承的，所有只有当你想要覆盖默认值时，才需要在当前页面指定这些参数。
+名称 默认值 描述 title 无 文章名称。 description 无 文章的描述信息，它会被添加在 HTML 的 &amp;lt;meta&amp;gt; 元数据中。 externalUrl 无 如果文章发布在第三方网站上，这里提供只想对应文章的 URL 地址。提供 URL 将会组织生成内容页面，对这篇文章的任何引用都会直接跳转到第三方网站的 URL 上面。 editURL article.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://sipsigrupo.github.io:1313/Site/docs/front-matter/featured.svg" />
+    </item>
+    
+  </channel>
+</rss>

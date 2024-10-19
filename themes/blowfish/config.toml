@@ -3,3 +3,5 @@
 extended = true
 min = "0.87.0"
 max = "0.135.0"
+
+baseURL = "https://sipsigrupo.github.io/Site/"

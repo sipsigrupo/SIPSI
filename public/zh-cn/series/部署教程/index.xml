@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>部署教程 on Blowfish</title>
+    <link>https://sipsigrupo.github.io:1313/Site/zh-cn/series/%E9%83%A8%E7%BD%B2%E6%95%99%E7%A8%8B/</link>
+    <description>Recent content in 部署教程 on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2024 Blowfish</copyright>
+    <atom:link href="https://sipsigrupo.github.io:1313/Site/zh-cn/series/%E9%83%A8%E7%BD%B2%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>安装和配置</title>
+      <link>https://sipsigrupo.github.io:1313/Site/zh-cn/docs/installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sipsigrupo.github.io:1313/Site/zh-cn/docs/installation/</guid>
+      <description>如果想快速上手，可以按照标准的 Hugo 快速启动 文档。
+更详细的安装如下，更新主题的教程也可以看此文档。
+前言 #本文将一步一步指导你学会使用 Hugo 和 Blowfish。本文中提到的大多数依赖项都可以在任意你想使用的平台中使用和安装。
+安装 Hugo #如果你之前没有使用过 Hugo，你首先需要了解在本地机器安装 Hugo。你可以通过运行命令 hugo version 来检查是否安装完成。
+确保你使用 Hugo 0.87.0 或更高的版本，Blowfish 主题中使用了最新的 Hugo 特性。你可以在 Hugo 文档 中找到不同平台更加详细的安装指南。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://sipsigrupo.github.io:1313/Site/docs/installation/featured.svg" />
+    </item>
+    
+    <item>
+      <title>入门指南</title>
+      <link>https://sipsigrupo.github.io:1313/Site/zh-cn/docs/getting-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sipsigrupo.github.io:1313/Site/zh-cn/docs/getting-started/</guid>
+      <description>本节内容需要已经阅读了 安装 Blowfish 主题。我们刚刚推出了一个 CLI 工具，用来帮助你快速开始 Blowfish。 它将帮助你安装和配置 Blowfish 主题。 可以使用以下命令全局安装 CLI 工具：
+npx blowfish-tools Blowfish 中的配置文件中包含了主题需要的所有可能的设置选项。但默认情况下大多数设置都是被注释的，你只需要取消注释就可以激活或者修改设定选项。
+基础设置 #在刚刚安装完成，创建内容之前，有几个设置需要关注。从 hugo.toml 开始，设置 baseURL 和 languageCode 参数。languageCode参数是用来指定你创作内容的主要语言。
+# config/_default/hugo.toml baseURL = &amp;#34;https://your_domain.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://sipsigrupo.github.io:1313/Site/docs/getting-started/featured.svg" />
+    </item>
+    
+    <item>
+      <title>配置</title>
+      <link>https://sipsigrupo.github.io:1313/Site/zh-cn/docs/configuration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sipsigrupo.github.io:1313/Site/zh-cn/docs/configuration/</guid>
+      <description>Blowfish 适宜个高度定制化的主题，使用到了一些 Hugo 中最新的特性来简化配置方式。
+主题附带了默认配置，可以让你快速启动一个基本的博客或静态网站。
+我们刚刚推出了 CLI 工具，来帮助你快速上手 Blowfish。它将帮助你进行安装和配置。使用以下命令可以全局范围安装 CLI 工具：
+npx blowfish-tools 配置文件是基于 TOML 格式的，这也是 Hugo 默认支持的语法。当然如果你愿意，也可以将配置转换成 YAML 或 JSON 格式。
+默认情况下，在每个文件中都定义了主题中的可用参数，因此你可以自由调整设置来满足你的需求。
+正如安装说明中的内容，如果你想调整主题配置，可以修改 Hugo 项目中 config/_default/ 文件夹下的文件，并删除项目根目录中的 config.toml 文件。网站配置 #Blowfish 主题支持了 Hugo 框架中定义的所有标准配置变量。但如果希望有更好的体验，需要设置一些特定的配置。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://sipsigrupo.github.io:1313/Site/docs/configuration/featured.svg" />
+    </item>
+    
+    <item>
+      <title>主页布局</title>
+      <link>https://sipsigrupo.github.io:1313/Site/zh-cn/docs/homepage-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sipsigrupo.github.io:1313/Site/zh-cn/docs/homepage-layout/</guid>
+      <description>Blowfish 提供了一个完全灵活的主页布局。你可以选择两种主要模板，并提供了额外的参数来帮助调整设计。当然，你也可以提供自己的模板，完全控制主页的内容。
+主页布局由 params.toml 配置文件中的 homepage.layout 参数来控制的。此外所有布局都默认包括 最近文章。
+个人资料布局 (profile) #默认的布局是 profile 布局，这非常适合个人网站和博客。它将作者的详细信息置于中心位置，并附带了头像和社交平台的链接。
+作者信息是在语言配置文件中提供的。具体的参数详情，请参考快速入门和语言配置的内容。
+此外，主页内容中提供的任何 Markdown 都会显示在作者资料的下方。这对使用短代码显示简介或其他主页的自定义内容提供了更多的灵活性。
+如果想要启用 profile 布局，请在 params.toml 配置文件中设置 homepage.layout = &amp;quot;profile&amp;quot;。
+页面布局（page） #页面布局只会简单的显示你的 Markdown 内容，这种方式非常适合静态网站，并提供了很多灵活性。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://sipsigrupo.github.io:1313/Site/docs/homepage-layout/featured.svg" />
+    </item>
+    
+    <item>
+      <title>Front Matter(文件头信息)</title>
+      <link>https://sipsigrupo.github.io:1313/Site/zh-cn/docs/front-matter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sipsigrupo.github.io:1313/Site/zh-cn/docs/front-matter/</guid>
+      <description>除了 Hugo 中默认的 front matter，Blowfish 主题中还添加了大量的参数选项来自定义单个页面的展示方式。所有可用的扉页参数如下。
+front matter 参数中的默认值是从基础配置中继承的，所有只有当你想要覆盖默认值时，才需要在当前页面指定这些参数。
+名称 默认值 描述 title 无 文章名称。 description 无 文章的描述信息，它会被添加在 HTML 的 &amp;lt;meta&amp;gt; 元数据中。 externalUrl 无 如果文章发布在第三方网站上，这里提供只想对应文章的 URL 地址。提供 URL 将会组织生成内容页面，对这篇文章的任何引用都会直接跳转到第三方网站的 URL 上面。 editURL article.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://sipsigrupo.github.io:1313/Site/docs/front-matter/featured.svg" />
+    </item>
+    
+    <item>
+      <title>多创作者模式</title>
+      <link>https://sipsigrupo.github.io:1313/Site/zh-cn/docs/multi-author/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sipsigrupo.github.io:1313/Site/zh-cn/docs/multi-author/</guid>
+      <description>一个网站会有多个创作者共同贡献内容，所以需要再整个网站中默认使用多创作者。对于这种情况，Blowfish 允许用户使用多创作者功能拓展创作者列表。
+为了保持向后兼容，这个功能仅允许定义额外的创作者，并不会以任何方式修改之前通过配置文件添加的创作者。
+新建创作者 #新建创作者的第一步是设置一个 ./data/authors 文件夹。然后，你可以在里面简单的添加新创作者的 json 文件。文件的名称是你在文章引用该作者时需要指定的 key。
+例如，在 ./data/authors 文件夹中新建一个 nunocoracao.json 文件。文件的内容示例如下。name、image、bio 和 social 是目前创作者文件支持的4个参数，这与你在 languages.[language-code].toml 配置文件中的默认创作者配置类似。
+注意：社交参数中的 key 将会默认获取主题的图标 icon，当然你也可以在 assests/icons 文件夹中设置任何图标。
+{ &amp;#34;name&amp;#34;: &amp;#34;Nuno Coração&amp;#34;, &amp;#34;image&amp;#34; : &amp;#34;img/nuno_avatar.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://sipsigrupo.github.io:1313/Site/docs/multi-author/featured.svg" />
+    </item>
+    
+    <item>
+      <title>局部模板(Partials)</title>
+      <link>https://sipsigrupo.github.io:1313/Site/zh-cn/docs/partials/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sipsigrupo.github.io:1313/Site/zh-cn/docs/partials/</guid>
+      <description>站点分析 #Blowfish 支持了 Fathom、Google 和 Umami。Fathom 和 Umami 都是开源、简单、且注重隐私的站点分析服务，他们可以很好地替代 Google 分析。Fathom 和 Umami 都有公有云的付费版本，当然你也可以自己手动部署开源版。
+Fathom #要启用 Fathom Analytics 支持，只需在 config/_default/params.toml 文件中提供您的 Fathom 站点代码。如果您还使用 Fathom 的自定义域功能，并希望从您的域中提供脚本，还可以额外提供 domain 配置值。如果不提供 domain 值，脚本将直接从 Fath只需要在 config/_default/params.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://sipsigrupo.github.io:1313/Site/docs/partials/featured.svg" />
+    </item>
+    
+    <item>
+      <title>内容示例</title>
+      <link>https://sipsigrupo.github.io:1313/Site/zh-cn/docs/content-examples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sipsigrupo.github.io:1313/Site/zh-cn/docs/content-examples/</guid>
+      <description>如果你已经按顺序阅读了文档，那么你现在应该已经了解了 Blowfish 中所有的功能和配置信息。这个页面旨在把所有内容整合在一起，并提供一些你会在 Hugo 项目中使用的示例。
+提示: 如果你是Hugo的新用户，请务必阅读官方文档，了解更多关于页面捆绑和资源的概念。这个页面上的示例都可以根据不同的场景进行调整，期待你在做自己项目的同时，提出一些对特定内容格式化的想法。
+分支页面 #Hugo 中的分支页面包括主页、部分列表页面和分类页面等内容，请记住，这些分支页面的文件名都是 _index.md。
+Blowfish 支持在分支页面中设置扉页参数，在扉页中设置的参数将会覆盖在配置文件中设置的参数默认值。例如，在分支页面中的 title 参数将会覆盖页面标题的默认值。
+主页 #Layout: layouts/index.html Content: content/_index.md Blowfish 中的主页比较特殊，它的整体设计是由主页的布局参数控制的。你可以在 主页布局 来获取更多内容。
+如果你想自定义主页的内容，你仅需创建一个 content/_index.md 文件。该文件中的任何内容都会包含在你的主页中。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://sipsigrupo.github.io:1313/Site/docs/content-examples/featured.svg" />
+    </item>
+    
+    <item>
+      <title>系列</title>
+      <link>https://sipsigrupo.github.io:1313/Site/zh-cn/docs/series/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sipsigrupo.github.io:1313/Site/zh-cn/docs/series/</guid>
+      <description>Blowfish 提供了将一组文章分组到“系列”下的功能。将文章放在系列下将在每个页面中显示该系列文章的其余部分，并在它们之间提供快速导航。您可以在上面看到一个例子。
+创建分类 #启用系列的第一步是创建 series 分类法。为此，只需将 series 分类法添加到 config.toml 中的分类法列表中即可。
+[taxonomies] tag = &amp;#34;tags&amp;#34; category = &amp;#34;categories&amp;#34; author = &amp;#34;authors&amp;#34; series = &amp;#34;series&amp;#34; 标记文章 #然后你只需要添加 series 和 series_order 参数。 series 参数将是您要将文章放入的系列名称。 series_order 定义了文章在该系列中的顺序。在下面的示例中，文章是 Documentation 系列中的第 11 篇文章。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://sipsigrupo.github.io:1313/Site/docs/series/featured.svg" />
+    </item>
+    
+    <item>
+      <title>进阶自定义</title>
+      <link>https://sipsigrupo.github.io:1313/Site/zh-cn/docs/advanced-customisation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sipsigrupo.github.io:1313/Site/zh-cn/docs/advanced-customisation/</guid>
+      <description>您可以通过多种方式对 Blowfish 进行高级自定义。请阅读下文，了解更多可自定义的内容以及实现想要效果的最佳方法。
+如果您需要更多指导，请在 GitHub Discussions 上提问。
+Hugo 项目结构 #在开始讨论之前，首先简要介绍一下 Hugo 项目结构 以及管理内容和主题自定义的最佳方式。
+总结： 切勿直接编辑主题文件。一定要仅在 Hugo 项目的子目录中进行自定义，而不是在主题目录中进行自定义。Blowfish 旨在利用所有标准的 Hugo 参数操作。它旨在允许在不更改任何核心主题文件的情况下自定义和覆盖主题的所有方面。这也给您提供了一种无缝升级的体验，同时让您完全控制网站的外观和感觉。
+为了实现这一点，您永远不应该直接手动更改任何主题核心文件。无论你是使用 Hugo 模块安装，还是作为 git 子模块安装，还是手动将主题安装在 themes/ 目录中，你都应该始终保持这些主题文件不变。
+调整主题行为的正确方法是通过使用 Hugo 强大的文件查找顺序覆盖文件。总之，查找顺序确保了包含在你的项目目录中的文件都会优先于主题文件。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://sipsigrupo.github.io:1313/Site/docs/advanced-customisation/featured.svg" />
+    </item>
+    
+    <item>
+      <title>托管和部署</title>
+      <link>https://sipsigrupo.github.io:1313/Site/zh-cn/docs/hosting-deployment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sipsigrupo.github.io:1313/Site/zh-cn/docs/hosting-deployment/</guid>
+      <description>有许多方法可以部署基于 Blowfish 主题的 Hugo 网站。这个主题几乎在任何部署场景中都很灵活。
+Blowfish 主题是通过将目录转换成相对 URL 路径来构建的。这让网站可以轻松地将子文件夹部署到类似 GitHub Pages 的托管服务中。只要在 config.toml 文件中配置了 baseURL 参数即可，通常不需要其他特殊的配置就能正常工作。
+Hugo 官方托管与部署文档是了解如何部署网站的最佳方案。下面会介绍详细介绍一些方案，希望能帮助你在以下平台顺利部署。
+选择你喜欢的服务商：
+GitHub Pages Netlify Render Cloudflare Pages 共享主机，VPS 或者 私有服务器 GitHub Pages #GitHub 允许你使用 Actions 在 GitHub Pages 上托管静态网站。如果想要启用此功能，需要你在代码库中启用 Pages 并创建一个新的 Actions 工作流，以此来构建和部署你的网站。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://sipsigrupo.github.io:1313/Site/docs/hosting-deployment/featured.svg" />
+    </item>
+    
+    <item>
+      <title>Firebase: 阅读量 &amp; 点赞量</title>
+      <link>https://sipsigrupo.github.io:1313/Site/zh-cn/docs/firebase-views/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sipsigrupo.github.io:1313/Site/zh-cn/docs/firebase-views/</guid>
+      <description>为了能够在网站中获取动态数据，我们支持了对 Firebase 的集成。这将允许你在列表和文章中使用阅读量功能。
+访问 Firebase 并创建一个账户 创建一个新项目 选择分析位置 Blowfish 是通过 params.toml 配置文件中的 firebase 相关参数，来和 firebase 集成的，更多的细节内容可以参考 这个页面。你可以在下面找到集成 firebase 的文件示例，请注意 FirebaseConfig 对象内的参数。 // 从你需要的 SDK 中导入所需的函数import { initializeApp } from &amp;#34;firebase/app&amp;#34;;import { getAnalytics } from &amp;#34;firebase/analytics&amp;#34;;// TODO: Add SDKs for Firebase products that you want to use// https://firebase.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://sipsigrupo.github.io:1313/Site/docs/firebase-views/featured.svg" />
+    </item>
+    
+  </channel>
+</rss>

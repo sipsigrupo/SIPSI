@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>部署 on Blowfish</title>
+    <link>https://sipsigrupo.github.io:1313/Site/zh-cn/tags/%E9%83%A8%E7%BD%B2/</link>
+    <description>Recent content in 部署 on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2024 Blowfish</copyright>
+    <atom:link href="https://sipsigrupo.github.io:1313/Site/zh-cn/tags/%E9%83%A8%E7%BD%B2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>托管和部署</title>
+      <link>https://sipsigrupo.github.io:1313/Site/zh-cn/docs/hosting-deployment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sipsigrupo.github.io:1313/Site/zh-cn/docs/hosting-deployment/</guid>
+      <description>有许多方法可以部署基于 Blowfish 主题的 Hugo 网站。这个主题几乎在任何部署场景中都很灵活。
+Blowfish 主题是通过将目录转换成相对 URL 路径来构建的。这让网站可以轻松地将子文件夹部署到类似 GitHub Pages 的托管服务中。只要在 config.toml 文件中配置了 baseURL 参数即可，通常不需要其他特殊的配置就能正常工作。
+Hugo 官方托管与部署文档是了解如何部署网站的最佳方案。下面会介绍详细介绍一些方案，希望能帮助你在以下平台顺利部署。
+选择你喜欢的服务商：
+GitHub Pages Netlify Render Cloudflare Pages 共享主机，VPS 或者 私有服务器 GitHub Pages #GitHub 允许你使用 Actions 在 GitHub Pages 上托管静态网站。如果想要启用此功能，需要你在代码库中启用 Pages 并创建一个新的 Actions 工作流，以此来构建和部署你的网站。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://sipsigrupo.github.io:1313/Site/docs/hosting-deployment/featured.svg" />
+    </item>
+    
+  </channel>
+</rss>

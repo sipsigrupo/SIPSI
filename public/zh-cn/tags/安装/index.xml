@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>安装 on Blowfish</title>
+    <link>https://sipsigrupo.github.io:1313/Site/zh-cn/tags/%E5%AE%89%E8%A3%85/</link>
+    <description>Recent content in 安装 on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2024 Blowfish</copyright>
+    <atom:link href="https://sipsigrupo.github.io:1313/Site/zh-cn/tags/%E5%AE%89%E8%A3%85/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>安装和配置</title>
+      <link>https://sipsigrupo.github.io:1313/Site/zh-cn/docs/installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sipsigrupo.github.io:1313/Site/zh-cn/docs/installation/</guid>
+      <description>如果想快速上手，可以按照标准的 Hugo 快速启动 文档。
+更详细的安装如下，更新主题的教程也可以看此文档。
+前言 #本文将一步一步指导你学会使用 Hugo 和 Blowfish。本文中提到的大多数依赖项都可以在任意你想使用的平台中使用和安装。
+安装 Hugo #如果你之前没有使用过 Hugo，你首先需要了解在本地机器安装 Hugo。你可以通过运行命令 hugo version 来检查是否安装完成。
+确保你使用 Hugo 0.87.0 或更高的版本，Blowfish 主题中使用了最新的 Hugo 特性。你可以在 Hugo 文档 中找到不同平台更加详细的安装指南。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://sipsigrupo.github.io:1313/Site/docs/installation/featured.svg" />
+    </item>
+    
+    <item>
+      <title>入门指南</title>
+      <link>https://sipsigrupo.github.io:1313/Site/zh-cn/docs/getting-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sipsigrupo.github.io:1313/Site/zh-cn/docs/getting-started/</guid>
+      <description>本节内容需要已经阅读了 安装 Blowfish 主题。我们刚刚推出了一个 CLI 工具，用来帮助你快速开始 Blowfish。 它将帮助你安装和配置 Blowfish 主题。 可以使用以下命令全局安装 CLI 工具：
+npx blowfish-tools Blowfish 中的配置文件中包含了主题需要的所有可能的设置选项。但默认情况下大多数设置都是被注释的，你只需要取消注释就可以激活或者修改设定选项。
+基础设置 #在刚刚安装完成，创建内容之前，有几个设置需要关注。从 hugo.toml 开始，设置 baseURL 和 languageCode 参数。languageCode参数是用来指定你创作内容的主要语言。
+# config/_default/hugo.toml baseURL = &amp;#34;https://your_domain.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://sipsigrupo.github.io:1313/Site/docs/getting-started/featured.svg" />
+    </item>
+    
+  </channel>
+</rss>

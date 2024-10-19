@@ -1,12 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors on Blowfish</title>
-    <link>//localhost:1313/authors/</link>
-    <description>Recent content in Authors on Blowfish</description>
+    <title>Authors Taxonomy Listing Example on Blowfish</title>
+    <link>https://sipsigrupo.github.io:1313/Site/authors/</link>
+    <description>Recent content in Authors Taxonomy Listing Example on Blowfish</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Your name here</copyright>
-    <atom:link href="//localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sipsigrupo.github.io:1313/Site/authors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dummy Second Author</title>
+      <link>https://sipsigrupo.github.io:1313/Site/authors/secondauthor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sipsigrupo.github.io:1313/Site/authors/secondauthor/</guid>
+      <description>Dummy Second Author&amp;rsquo;s awesome dummy bio.</description>
+      
+    </item>
+    
+    <item>
+      <title>Nuno Coração</title>
+      <link>https://sipsigrupo.github.io:1313/Site/authors/nunocoracao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sipsigrupo.github.io:1313/Site/authors/nunocoracao/</guid>
+      <description>Nuno&amp;rsquo;s awesome dummy bio.</description>
+      
+    </item>
+    
   </channel>
 </rss>
